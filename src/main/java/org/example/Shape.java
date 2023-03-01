@@ -27,8 +27,8 @@ public class Shape {
                 d1=mysc.nextFloat();
                 d2=mysc.nextFloat();
                 BasicShape b=new BasicShape(name,d1,d2);
-                b.findArea(name,d1,d2);
-                b.findPerimeter(name,d1,d2);
+                b.findArea(d1,d2);
+                b.findPerimeter(d1,d2);
                 ra=""+b.retArea();
                 log.info(ra);
                 rp=""+b.retPeri();
@@ -44,8 +44,8 @@ public class Shape {
                 d2=mysc.nextFloat();
                 d3=mysc.nextFloat();
                 BasicShape b=new BasicShape(name,d1,d2,d3);
-                b.findArea(name,d1,d2,d3);
-                b.findPerimeter(name,d1,d2,d3);
+                b.findArea(d1,d2,d3);
+                b.findPerimeter(d1,d2,d3);
                 log.info(are);
                 ra=""+b.retArea();
                 log.info(ra);
