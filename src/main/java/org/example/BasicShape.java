@@ -43,8 +43,7 @@ class BasicShape {
     }
     public void findArea(double d1,double d2,double d3) {
 
-
-        area=0.5*d1*d2;
+        area=0.5*d1*d2*d3/d3;
     }
     public void findPerimeter(String name,double d1) {
         if(name.equals(sq))
